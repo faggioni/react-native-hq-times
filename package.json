@@ -1,0 +1,36 @@
+{
+  "name": "react-native-hq-times",
+  "version": "1.0.10",
+  "description": "HQ Rentals Times",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "ci": "npm run type-check && npm run lint && npm run prettier",
+    "build": "npm run ci && tsc",
+    "prettier": "prettier --write '**/*.{ts,tsx,js}' --config .prettierrc"
+  },
+  "keywords": [
+    "countdown",
+    "react-native",
+    "times"
+  ],
+  "author": "Miguel Faggioni",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-react": "^7.0.0-beta.49",
+    "@babel/preset-typescript": "^7.0.0-beta.49",
+    "@types/node": "^10.5.2",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "16.0.3",
+    "@types/react-native": "^0.56.4",
+    "prettier": "1.13.7",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.14.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "typescript": "^2.9.2"
+  }
+}
