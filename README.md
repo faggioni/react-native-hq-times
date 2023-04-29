@@ -108,10 +108,6 @@ const styles = StyleSheet.create({
 });
 ```
 
-## Author
-
-Noel Yoo
-
 ## License
 
 MIT
