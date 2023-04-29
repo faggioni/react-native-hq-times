@@ -1,6 +1,6 @@
 {
   "name": "react-native-hq-times",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "HQ Rentals Times",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "keywords": [
     "countdown",
     "react-native",
-    "times"
+    "timer"
   ],
   "author": "Miguel Faggioni",
   "devDependencies": {
