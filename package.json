@@ -1,6 +1,6 @@
 {
   "name": "react-native-hq-times",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "HQ Rentals Times",
   "main": "index.js",
   "scripts": {
@@ -32,5 +32,10 @@
     "tslint-config-prettier": "^1.14.0",
     "tslint-eslint-rules": "^5.3.1",
     "typescript": "^2.9.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faggioni/react-native-hq-times"
   }
 }
